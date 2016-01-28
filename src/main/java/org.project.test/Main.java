@@ -22,8 +22,8 @@ import com.google.gson.*;
 
 public class Main  {
 
-
-    public static void main(String[] args) throws FileNotFoundException {
+public static void main(String[] args) throws FileNotFoundException {
+    Integer k=8;
         String y="string";
         Gson gson = new Gson();
         BufferedReader br = new BufferedReader((new FileReader("/net/u/mah/openbaton/file.json")));
