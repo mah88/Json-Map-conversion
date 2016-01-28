@@ -24,6 +24,7 @@ public class Main  {
 
 
     public static void main(String[] args) throws FileNotFoundException {
+        String y="string";
         Gson gson = new Gson();
         BufferedReader br = new BufferedReader((new FileReader("/net/u/mah/openbaton/file.json")));
         Type mapOfMapsType = new TypeToken<Map<String, Map<String, Servicefunctionforwarder>>>() {}.getType();
@@ -97,7 +98,6 @@ public class Main  {
             this.messages = messages;
         }
     }
-
 
 
 
