@@ -19,6 +19,7 @@ public class Main {
 
 
     public static void main(String[] args) throws FileNotFoundException {
+        //
         Gson gson = new Gson();
         BufferedReader br = new BufferedReader((new FileReader("/net/u/mah/openbaton/file.json")));
         Type mapOfMapsType = new TypeToken<Map<String, ServiceFunctionForwarders>>() {}.getType();
